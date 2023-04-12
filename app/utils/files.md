@@ -1,11 +1,15 @@
-dateUtils.js: contains functions for working with date and time values, such as formatting dates, calculating time differences, and parsing date strings.
+authentication.js: This file contains functions for authenticating users and managing user sessions.
 
-stringUtils.js: contains functions for working with strings, such as formatting text, searching for substrings, and manipulating character case.
+dataValidation.js: This file contains functions for validating user input and ensuring that data is in the correct format.
 
-mathUtils.js: contains functions for performing mathematical calculations, such as rounding numbers, generating random numbers, and computing statistical values.
+errorHandlers.js: This file contains functions for handling errors and returning appropriate error messages to the user.
 
-fileUtils.js: contains functions for working with files, such as reading and writing data to disk, parsing file formats, and compressing files.
+fileUpload.js: This file contains functions for uploading and managing files and attachments associated with tasks.
 
-networkUtils.js: contains functions for working with network connections, such as sending and receiving data over HTTP or TCP protocols, parsing URLs, and managing network sockets.
+notifications.js: This file contains functions for sending notifications to users, such as email or push notifications, when tasks are assigned or completed.
 
-cryptoUtils.js: contains functions for working with cryptographic algorithms, such as hashing data, encrypting and decrypting data, and generating secure random keys.
+pagination.js: This file contains functions for paginating large lists of tasks or other data, to improve performance and usability.
+
+permissions.js: This file contains functions for managing user permissions and access levels, to ensure that users can only access the data and features that they are authorized to use.
+
+utilities.js: This file contains general utility functions that are used throughout the application, such as functions for generating random IDs or formatting dates and times.
