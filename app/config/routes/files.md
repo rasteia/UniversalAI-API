@@ -1,13 +1,9 @@
-Express.js for our server framework, some of the files that we might need in the /app/config/routes folder to create the routes for our UniversalAI API application are:
+index.js: the main file that defines the application's routes and handles HTTP requests and responses.
 
-index.js: This file exports the router object and defines the base route for our API.
+userRoutes.js: a file that defines the routes for user-related functionality, such as user authentication and account management.
 
-task.js: This file defines the routes for managing tasks, including creating, updating, deleting, and retrieving tasks.
+taskRoutes.js: a file that defines the routes for task-related functionality, such as creating, updating, and deleting tasks.
 
-user.js: This file defines the routes for managing users, including creating, updating, deleting, and retrieving user data.
+projectRoutes.js: a file that defines the routes for project-related functionality, such as creating, updating, and deleting projects.
 
-auth.js: This file defines the routes for handling user authentication and authorization, including login, logout, and access control.
-
-message.js: This file defines the routes for managing messages and notifications, including creating, updating, deleting, and retrieving messages.
-
-analytics.js: This file defines the routes for generating reports and analytics, including performance metrics and user activity tracking.
+teamRoutes.js: a file that defines the routes for team-related functionality, such as creating, updating, and deleting teams.
