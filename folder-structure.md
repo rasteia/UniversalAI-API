@@ -42,3 +42,31 @@ package.json: the file that contains the dependencies and configuration for the 
 package-lock.json: the lock file that ensures consistent installations of dependencies.
 README.md: the README file for the application.
 server.js: the main server file for the application.
+
+/app
+  /api
+    /controllers
+      taskController.js
+      userController.js
+    /models
+      taskModel.js
+      userModel.js
+    /routes
+      taskRoutes.js
+      userRoutes.js
+    /utils
+      authUtils.js
+      validationUtils.js
+  /services
+    /data
+      taskDataService.js
+      userDataService.js
+    /models
+      taskModelService.js
+      userModelService.js
+    /utils
+      authUtils.js
+      validationUtils.js
+  /utils
+    logger.js
+    errorUtils.js
